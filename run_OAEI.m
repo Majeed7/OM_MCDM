@@ -1,3 +1,23 @@
+%--------------------------------------------------------------------------
+% This file includes the experiments of how to compute the expert-based
+% collective performance (ECP) and the credal rankings of performance
+% metrics and ontology alingment systems participated in different OAEI 
+% tracks. The performance metrics and their importance (using Bayesian 
+% Best-Worst Method) are calculated by consulting with ontology matching 
+% experts.
+% For more information on how to provide the input to the model, see the
+% comments in the code. The information of metrics and their importance are
+% stored in OAEI_2018.mat
+%--------------------------------------------------------------------------
+% Copyright @ Majid Mohammadi, 2020
+% For more information, see the corresponding paper:
+%  Mohammadi and Rezaei (2020), Evaluating and Comparing Ontology
+%      Alignment Systems: An MCDM Approach, Journal of Web Semantics, 2020,
+% and for Bayesian Best-Worst Method, see:
+%  Mohammadi and Rezaei (2019), Bayesian Best-Worst Method: A Probabilistic 
+%     Group Decision-making Model, Omega, 2019.
+%--------------------------------------------------------------------------
+
 clear
 close
 clc
